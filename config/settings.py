@@ -152,7 +152,7 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-CSRF_TRUSTED_ORIGINS = ['common/login.html']
+CSRF_TRUSTED_ORIGINS = ['https://port-0-gluetinous-rice-cake-7xwyjq992llj3n8wn7.sel4.cloudtype.app/common/login.html']
 
 
 # 로그인 성공후 이동하는 URL
