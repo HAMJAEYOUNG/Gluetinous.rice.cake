@@ -151,8 +151,8 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_ORIGINS = ['https://port-0-gluetinous-rice-cake-7xwyjq992llj3n8wn7.sel4.cloudtype.app']
-CSRF_TRUSTED_ORIGINS = ALLOWED_ORIGINS.copy()
+
+CSRF_TRUSTED_ORIGINS = ['https://port-0-gluetinous-rice-cake-7xwyjq992llj3n8wn7.sel4.cloudtype.app']
 
 
 # 로그인 성공후 이동하는 URL
