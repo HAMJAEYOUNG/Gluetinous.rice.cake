@@ -74,7 +74,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ["https://port-0-gluetinous-rice-cake-7xwyjq992llj3n8wn7.sel4.cloudtype.app/"]
+
 
 ROOT_URLCONF = 'config.urls'
 
@@ -150,6 +150,10 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ALLOWED_ORIGINS = ['https://port-0-gluetinous-rice-cake-7xwyjq992llj3n8wn7.sel4.cloudtype.app']
+CSRF_TRUSTED_ORIGINS = ALLOWED_ORIGINS.copy()
+
 
 # 로그인 성공후 이동하는 URL
 LOGIN_REDIRECT_URL = '/'
