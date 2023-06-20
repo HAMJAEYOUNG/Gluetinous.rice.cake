@@ -156,7 +156,7 @@ CSRF_TRUSTED_ORIGINS = ALLOWED_ORIGINS.copy()
 
 
 # 로그인 성공후 이동하는 URL
-LOGIN_REDIRECT_URL = 'https://port-0-gluetinous-rice-cake-7xwyjq992llj3n8wn7.sel4.cloudtype.app'
+LOGIN_REDIRECT_URL = '/'
 
 # 로그아웃시 이동하는 URL
-LOGOUT_REDIRECT_URL = 'https://port-0-gluetinous-rice-cake-7xwyjq992llj3n8wn7.sel4.cloudtype.app'
+LOGOUT_REDIRECT_URL = '/'
